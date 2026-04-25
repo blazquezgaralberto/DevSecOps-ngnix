@@ -10,5 +10,3 @@ docker build -t $APP_NAME:$VERSION .
 
 #TEST: Run the container
 docker run -d -p 80:80 --name $APP_NAME:$VERSION webapp
-
-
